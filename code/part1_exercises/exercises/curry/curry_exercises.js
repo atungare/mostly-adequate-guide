@@ -32,7 +32,6 @@ var _keepHighest = function(x,y){ return x >= y ? x : y; };
 // REFACTOR THIS ONE:
 var max = reduce(_keepHighest, 0);
 
-
 // Bonus 1:
 // ============
 // wrap array's slice to be functional and curried.
